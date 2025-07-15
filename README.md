@@ -9,5 +9,7 @@ additions:
 - add death sound
 - increase time slow on death
 - make fullscreen and zoom out slightly
+- increase camera follow speed slightly
 - add v-sync
 - add frame limiter at 60 FPS
+- change coin message label at end
