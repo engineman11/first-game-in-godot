@@ -2,7 +2,7 @@
 
 additions:
 - fix music stream (was 2d)
-- change BGM
+- change BGM and increase volume to + 0 db
 - add pause
 - add death message
 - change jump behaviour (reduce gravity)
