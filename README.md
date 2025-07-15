@@ -14,3 +14,6 @@ additions:
 - add v-sync
 - add frame limiter at 60 FPS
 - change coin message label at end
+
+new:
+- add variable jump height
