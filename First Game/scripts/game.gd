@@ -9,7 +9,7 @@ func _ready() -> void:
 	$Camera2D/YouDied.hide()
 	Input.mouse_mode = Input.MOUSE_MODE_HIDDEN
 
-
+	
 func death():
 	player.death()
 	$Camera2D.position = $Player/Camera2D.get_screen_center_position()
