@@ -1,8 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://4kg150o2entl"]
+[gd_scene load_steps=3 format=3 uid="uid://4kg150o2entl"]
 
-[ext_resource type="AudioStream" uid="uid://m73dm4jhs3eq" path="res://assets/music/time_for_adventure.mp3" id="1_q0dvm"]
+[ext_resource type="AudioStream" uid="uid://bu3vocwpqm8kn" path="res://assets/music/90's Industrial Metal Cyberpunk - Broken ⁄⁄ Royalty Free No Copyright Music (128kbit_AAC).mp3" id="1_q0dvm"]
+[ext_resource type="Script" uid="uid://cvmk1jd7lfgdv" path="res://scripts/music.gd" id="2_ibx2e"]
 
-[node name="Music" type="AudioStreamPlayer2D"]
+[node name="Music" type="AudioStreamPlayer"]
 stream = ExtResource("1_q0dvm")
 autoplay = true
 bus = &"Music"
+script = ExtResource("2_ibx2e")
+
+[connection signal="finished" from="." to="." method="_on_finished"]

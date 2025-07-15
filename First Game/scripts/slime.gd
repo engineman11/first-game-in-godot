@@ -4,6 +4,8 @@ const SPEED = 60
 
 var direction = 1
 
+signal death
+
 @onready var ray_cast_right = $RayCastRight
 @onready var ray_cast_left = $RayCastLeft
 @onready var animated_sprite = $AnimatedSprite2D
@@ -18,3 +20,7 @@ func _process(delta):
 		animated_sprite.flip_h = false
 	
 	position.x += direction * SPEED * delta
+
+
+func _on_killzone_death() -> void:
+	death.emit()
