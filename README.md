@@ -8,7 +8,7 @@ additions:
 - change jump behaviour (reduce gravity)
 - add death sound
 - increase time slow on death
-- make fullscreen and zoom out slightly
+- make fullscreen rendering at 1920 * 1080 and zoom out slightly
 - increase camera follow speed slightly
 - add v-sync
 - add frame limiter at 60 FPS
