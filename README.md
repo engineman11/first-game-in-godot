@@ -9,6 +9,7 @@ additions:
 - add death sound
 - increase time slow on death
 - make fullscreen rendering at 1920 * 1080 and zoom out slightly
+- hide mouse cursor
 - increase camera follow speed slightly
 - add v-sync
 - add frame limiter at 60 FPS
